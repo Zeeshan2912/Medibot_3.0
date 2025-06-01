@@ -37,6 +37,11 @@ export HF_TOKEN="your_huggingface_token"
 export WANDB_API_TOKEN="your_wandb_token"  # Optional
 ```
 
+4. Validate your setup:
+```bash
+python validate_setup.py
+```
+
 ### Quick Demo
 
 For a quick demonstration:
@@ -101,6 +106,7 @@ Medibot_3.0/
 ├── AI_Doctor_3.ipynb          # Main training notebook
 ├── example_usage.py           # Interactive example script
 ├── train_model.py             # Command-line training script
+├── validate_setup.py          # Setup validation script
 ├── src/
 │   ├── __init__.py
 │   ├── medibot.py             # Core inference class
