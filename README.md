@@ -37,6 +37,23 @@ export HF_TOKEN="your_huggingface_token"
 export WANDB_API_TOKEN="your_wandb_token"  # Optional
 ```
 
+### Quick Demo
+
+For a quick demonstration:
+```bash
+# Run the interactive example
+python example_usage.py
+```
+
+For training:
+```bash
+# Train with default settings
+python train_model.py --hf_token YOUR_HF_TOKEN
+
+# Or follow the Jupyter notebook for detailed training
+jupyter notebook AI_Doctor_3.ipynb
+```
+
 ### Usage
 
 #### Training the Model
@@ -54,6 +71,12 @@ Follow the cells sequentially to:
 
 #### Using the Trained Model
 
+**Option 1: Interactive Example Script**
+```bash
+python example_usage.py
+```
+
+**Option 2: Python API**
 ```python
 from src.medibot import MedibotInference
 
@@ -66,11 +89,18 @@ response = medibot.generate_response(question)
 print(response)
 ```
 
+**Option 3: Command Line Training**
+```bash
+python train_model.py --hf_token YOUR_TOKEN --max_steps 100
+```
+
 ## 🏗️ Project Structure
 
 ```
 Medibot_3.0/
 ├── AI_Doctor_3.ipynb          # Main training notebook
+├── example_usage.py           # Interactive example script
+├── train_model.py             # Command-line training script
 ├── src/
 │   ├── __init__.py
 │   ├── medibot.py             # Core inference class
