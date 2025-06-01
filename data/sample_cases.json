@@ -1,0 +1,26 @@
+[
+  {
+    "question": "A 61-year-old woman with a long history of involuntary urine loss during activities like coughing or sneezing but no leakage at night undergoes a gynecological exam and Q-tip test. Based on these findings, what would cystometry most likely reveal about her residual volume and detrusor contractions?",
+    "response": "Based on the clinical presentation, this patient most likely has stress urinary incontinence. Cystometry would likely reveal normal detrusor contractions and normal post-void residual volume, as stress incontinence is primarily due to urethral sphincter weakness rather than detrusor dysfunction.",
+    "context": "Stress urinary incontinence, gynecological examination",
+    "difficulty": "medium",
+    "specialty": "urology",
+    "tags": ["incontinence", "cystometry", "stress incontinence"]
+  },
+  {
+    "question": "A 59-year-old man presents with fever, chills, night sweats, and generalized fatigue, and is found to have a 12 mm vegetation on the aortic valve. Blood cultures indicate gram-positive, catalase-negative, gamma-hemolytic cocci in chains that do not grow in 6.5% NaCl medium. What is the most likely predisposing factor for this patient's condition?",
+    "response": "Based on the blood culture results showing gram-positive, catalase-negative, gamma-hemolytic cocci in chains that do not grow in 6.5% NaCl, this suggests Enterococcus species. The most likely predisposing factor for Enterococcus endocarditis would be underlying valvular disease, dental procedures, or gastrointestinal/genitourinary tract manipulation.",
+    "context": "Endocarditis, blood culture interpretation",
+    "difficulty": "hard",
+    "specialty": "cardiology",
+    "tags": ["endocarditis", "enterococcus", "blood culture"]
+  },
+  {
+    "question": "A 45-year-old diabetic patient presents with sudden onset of severe abdominal pain, nausea, and vomiting. Lab results show elevated amylase and lipase. What is the most likely diagnosis and immediate management?",
+    "response": "The most likely diagnosis is acute pancreatitis, supported by the clinical presentation and elevated pancreatic enzymes. Immediate management includes: 1) NPO status, 2) IV fluid resuscitation, 3) pain control, 4) monitoring for complications, and 5) investigating the underlying cause (gallstones, alcohol, medications, etc.).",
+    "context": "Diabetic patient with acute abdominal pain",
+    "difficulty": "medium",
+    "specialty": "gastroenterology",
+    "tags": ["pancreatitis", "diabetes", "abdominal pain"]
+  }
+]
